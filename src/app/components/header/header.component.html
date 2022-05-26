@@ -1,15 +1,16 @@
 <header>
-  <img src="assets/img/Seus-Momentos.png" alt="Logo Seus Momentos" class="logo">
-  <form action="">
-    <input type="text" placeholder="Fotos, pessoas ou grupos">
-    <button><span class="material-symbols-rounded">search</span></button>
-  </form>
+  <a routerLink="/">
+    <img src="assets/img/Seus-Momentos-Logo.png" alt="Logo Seus Momentos" class="logo">
+  </a>
+  <div class="search-box">
+    <input type="text" placeholder="Pesquisar">
+    <span class="material-icons">search</span>
+  </div>
   <nav>
     <ul class="nav__links">
-      <li><a href="#">Explorar</a></li>
-      <li><a href="#">Publicar</a></li>
-      <li><a href="#">Lucas Alves</a></li>
+      <li><a routerLink="/">Explorar</a></li>
+      <li id="add"><a routerLink="/publicar/new">Publicar</a></li>
+      <li><a routerLink="/login">Entrar</a></li>
     </ul>
   </nav>
-  <img src="assets/img/IMG-PERFIL.jpg" alt="" class="user__img">
 </header>
