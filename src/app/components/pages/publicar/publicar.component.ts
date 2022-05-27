@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./publicar.component.css']
 })
 export class PublicarComponent implements OnInit {
+  btnText= 'Publicar';
 
   constructor() { }
 
