@@ -1,0 +1,15 @@
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.brand__footer {
+    width: 150px;
+    margin-right: 10px;
+}
+
+footer p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #8E8E8E;
+}
