@@ -14,3 +14,13 @@ footer p {
     font-weight: 300;
     color: #8E8E8E;
 }
+footer a {
+    font-weight: 300;
+    color: #8E8E8E;
+    padding-left: 10px;
+}
+
+footer span {
+    color: #99E3AD;
+    font-weight: 400;
+}
