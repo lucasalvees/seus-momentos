@@ -1,0 +1,26 @@
+.about {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 120px 50px 120px;
+}
+
+.about span {
+    color: #99E3AD;
+}
+
+h2 {
+    padding-bottom: 30px;
+}
+
+.about a {
+    color: #323232;
+    font-weight: 700;
+    transition: all 0.3s ease 0s;
+    padding-top: 20px;
+}
+
+.about a:hover {
+    color: #99E3AD;
+}
