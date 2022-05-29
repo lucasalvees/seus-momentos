@@ -1,7 +1,7 @@
-<div class="message" *ngIf="messagesServices.message">
+<div class="message" *ngIf="messagesService.message">
     <div class="message-header">
-        <p>{{ messagesServices.message }}</p>
-        <button class="clear">
+        <p>{{ messagesService.message }}</p>
+        <button class="clear" (click)="messagesService.clear()">
             <fa-icon [icon]="faXmark"></fa-icon>
         </button>
     </div>

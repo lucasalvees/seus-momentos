@@ -12,7 +12,7 @@ import { MessagesService } from 'src/app/services/messages.service';
 export class MessagesComponent implements OnInit {
   faXmark = faXmark;
 
-  constructor(public messagesServices: MessagesService) { }
+  constructor(public messagesService: MessagesService) { }
 
   ngOnInit(): void {
   }

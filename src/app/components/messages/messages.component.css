@@ -1,6 +1,6 @@
 .message {
     position: fixed;
-    top: 50px;
+    top: 110px;
     width: 50%;
     margin-left: 50%;
     left: -25%;
@@ -11,6 +11,16 @@
     padding: 12px;
     display: flex;
     flex-direction: column;
+    animation: down 1s;
+}
+
+@keyframes down {
+    0% {
+        top: 0px;
+    }
+    100% {
+        top: 110px;
+    }
 }
 
 .message-header {
