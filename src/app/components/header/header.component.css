@@ -36,35 +36,20 @@ input {
     cursor: pointer;
 }
 
-.search-box {
+.search-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: 1px solid #DBDBDB;
+    border: 1.5px solid #DBDBDB;
     border-radius: 4px;
 }
+
 input {
     padding: 10px 60px 10px 10px;
     background: #FFFFFF;
 }
 
-.search-box span {
+.search-container fa-icon {
     padding-right: 10px;
-}
-button {
-    padding: 6px 11px;
-    background-color: #fff;
-    color: #8E8E8E;
-    border: 1px solid #DBDBDB;
-    border-radius: 0px 4px 4px 0px;
-
-    transition: all 0.3s ease 0s;
-}
-
-button:hover {
-    color: rgba(142, 142, 142, 0.5);
-}
-
-.material-icons {
     color: #8E8E8E;
 }

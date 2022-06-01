@@ -2,9 +2,9 @@
   <a routerLink="/">
     <img src="assets/img/Seus-Momentos-Logo.png" alt="Logo Seus Momentos" class="logo">
   </a>
-  <div class="search-box">
-    <input type="text" placeholder="Pesquisar">
-    <span class="material-icons">search</span>
+  <div class="search-container">
+    <input type="text" placeholder="Pesquisar" (input)="search($event)">
+    <fa-icon [icon]="faSearch"></fa-icon>
   </div>
   <nav>
     <ul class="nav__links">
