@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { MomentService } from 'src/app/services/moment.service';
 import { Moment } from 'src/app/Moment';
 import { environment } from 'src/environments/environment';
+import { faComment as farComment } from '@fortawesome/free-regular-svg-icons';
 
 @Component({
   selector: 'app-home',
@@ -12,6 +13,7 @@ export class HomeComponent implements OnInit {
   allMoments: Moment[] = [];
   moments: Moment[] = [];
   baseApiUrl = environment.baseApiUrl;
+  farComment = farComment;
 
   constructor(private momentService: MomentService) { }
 
