@@ -1,0 +1,76 @@
+.moment {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+}
+  
+h1 {
+  margin-bottom: 20px;
+}
+  
+img {
+  padding-top: 20px;
+  max-width: 500px;
+  margin: 0 auto 20px;
+}
+
+.about-moment,
+.actions {
+  padding-bottom: 1em;
+  border-bottom: 1px solid #DBDBDB;
+  padding: 1.2em;
+}
+
+.actions {
+  background-color: #EEE;
+}
+
+.comments {
+  margin-bottom: 1em;
+  padding: 1.5em 0;
+}
+
+/* Buttons */
+.edit-btn,
+.remove-btn {
+  border: 1px solid #EFEFEF;
+  border-radius: 4px;
+  padding: 0.4em 1em;
+  font-size: 1em;
+  margin: 0 0.5em;
+  cursor: pointer;
+  background-color: #FFF;
+  transition: 0.4s;
+}
+
+button fa-icon,
+a fa-icon {
+  margin-right: 0.2em;
+}
+
+.edit-btn,
+.edit-btn path {
+  border-color: #99E3AD;
+  color: #99E3AD;
+}
+
+.edit-btn:hover,
+.edit-btn:hover path {
+  color: #fff;
+  background-color: #99E3AD;
+}
+
+.remove-btn,
+.remove-btn path {
+  border-color: #dc3545;
+  color: #dc3545;
+}
+
+.remove-btn:hover,
+.remove-btn:hover path {
+  color: #fff;
+  background-color: #dc3545;
+}
